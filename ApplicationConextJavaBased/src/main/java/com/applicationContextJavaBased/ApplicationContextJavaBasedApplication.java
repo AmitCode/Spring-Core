@@ -14,7 +14,6 @@ public class ApplicationContextJavaBasedApplication {
 		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
 		UserInfo userInfo = (UserInfo) applicationContext.getBean(UserInfo.class);
 		System.out.println("User Name : " +userInfo.userName);
-		
 	}
 
 }

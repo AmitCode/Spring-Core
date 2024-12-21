@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="loanInfo" class="com.springDemo.LoanInfoClass">
+        <constructor-arg name="loanId" value="SELF-0001-LOAN">
+        </constructor-arg>
+        <constructor-arg name="loanAmount" value="4000000">
+        </constructor-arg>
+        <constructor-arg name="applicantName" value="X User">
+        </constructor-arg>
+        <constructor-arg name="applicantAge" value="29">
+        </constructor-arg>
+    </bean>
+
+</beans>
